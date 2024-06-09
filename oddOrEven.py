@@ -1,5 +1,8 @@
-n = 19
+n = int(input("ENTER THE NUMBER: "))
+
 if n%2 == 0:
-	print("EVEN")
+    print("EVEN NUMBER")
 else:
-	print("ODD")
+    print("ODD NUMBER")
+
+        

@@ -1,12 +1,9 @@
-#Defining Variables
-a = 10       #variablename = data
-b = "Here"
-c = 1.23
-d = True     # And also False
+a = 1
+b = 2.3
+c = "STRING"
+d = True
 
-#Printing Datatypes
 print(type(a))
 print(type(b))
 print(type(c))
 print(type(d))
-print(type(e))
