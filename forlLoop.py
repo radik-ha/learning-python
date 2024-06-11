@@ -1,0 +1,22 @@
+#Conventional
+print("Sorry")
+print("Sorry")
+print("Sorry")
+print("Sorry")
+print("Sorry")
+print("Sorry")
+print("Sorry")
+print("Sorry")
+print("Sorry")
+print("Sorry")
+print("Sorry")
+print("Sorry")
+print("Sorry")
+print("Sorry")
+print("Sorry")
+print("Sorry")
+
+#For Loop
+print("Using Loop")
+for x in range(16): # 0 to 15 (16 exclusive)
+    print("Sorry")
