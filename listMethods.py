@@ -1,18 +1,11 @@
-# Append: Adds A New Element To The End Of A List
-
-a = ['w','x','y']
-a.append('z')
+a = ["a","b","c"]
+a.append("d")
 print(a)
 
-# Extend: Takes A List  As An Argument And Appends All Of The Elements
-
-a1 = ['v','w','x']
-a2 = ['y','z']
-a1.extend(a2)
-print(a1)
-
-# Sort: Arranges The Element Of The List From Low o High
-
-a = ['z','x','w','y']
-a.sort()
+b = ["d","e"]
+a.extend(b)
 print(a)
+
+c = ["b","d","f","a","c","e"]
+c.sort()
+print(c)

@@ -1,19 +1,19 @@
-import  turtle
-pen = turtle.Pen()
-pen.speed(7)
-pen.pensize(3)
-pen.begin_fill()
-pen.fillcolor("lightgreen")
-for i in range(4):
-    pen.lt(70)
-    pen.fd(150)
-    pen.rt(140)
-    pen.fd(150)
+import turtle
+pen = turtle.Turtle()
+pen.speed(0)
 
-pen.lt(70)
-pen.fd(150)
-pen.rt(140)
-pen.fd(160)
-pen.lt(60)
-pen.fd(15)
-pen.end_fill()
+colors = ["red","orange","violet","pink","green"]
+x = 0
+for i in range(50):
+    pen.begin_fill()
+    pen.fillcolor(colors[x])
+    x+=1
+    if x == 5:
+        x = 0
+    pen.fd(i*10)
+    pen.rt(144)
+    pen.end_fill()
+turtle.done()
+
+
+
